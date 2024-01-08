@@ -11,7 +11,6 @@ random2 = random.randint(1, 9)
 random3 = random.randint(1, 9)
 random4 = random.randint(1, 9)
 
-pin = 5376
 pin = (f"{random1}{random2}{random3}{random4}")
 iban = ""
 print("\nYour account was created!")
