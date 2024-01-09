@@ -49,6 +49,7 @@ while True:
             deposit = float(input("Enter the amount you will deposit: "))
             if deposit < 0:
                 print("Invalid operation!")
+                break
             elif type_of_currency == "bgn":
                 if tp_vl == "bgn":
                         balance += deposit
