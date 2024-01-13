@@ -3,7 +3,7 @@ import random
 # Bank Account
 country = input("Enter place of card('bg', 'de', 'fr', 'it', 'gb'): ").lower() 
 owner = input("Enter your name: ")
-balance = float(input("Enter start balance: "))
+start_balance = float(input("Enter start balance: "))
 type_of_currency = input("Enter currency of card('BGN', 'USD', 'EUR'): ").lower() # "BGN", "USD", "EUR"
 
 random1 = random.randint(1, 9)
